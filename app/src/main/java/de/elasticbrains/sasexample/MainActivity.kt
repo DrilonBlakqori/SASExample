@@ -21,6 +21,9 @@ class MainActivity: Activity () {
         theButton.setOnClickListener {
             startActivity(Intent(this, RecyclerActivity::class.java))
         }
+        toHtml5ActivityButton.setOnClickListener {
+            startActivity(Intent(this, HTML5AdActivity::class.java))
+        }
     }
 
 }

@@ -24,6 +24,13 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:text="Go to recycler view activity"/>
+
+        <Button
+                android:id="@+id/toHtml5ActivityButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Go to HTML5 banner activity"/>
     </LinearLayout>
 
 

@@ -29,9 +29,8 @@ class BannerView(context: Context, attributeSet: AttributeSet? = null) : SASBann
             val optimalHeight = optimalHeight
             layoutParams.height = optimalHeight
             layoutParams = layoutParams
-//            Invalidating or calling requestLayout has no effect
-//            invalidate()
-//            requestLayout()
+            invalidate()
+            requestLayout()
             Log.i("BannerView","layout params updated")
         }
     }

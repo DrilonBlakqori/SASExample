@@ -26,7 +26,7 @@ class RecyclerActivity : AppCompatActivity() {
 
 class ARecyclerAdapter: RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
-    private val adPlacement = SASAdPlacement(311578, "1123762", 73927, null)
+    private val adPlacement = SASAdPlacement(70120, "534149", 77382, null)
 
     override fun getItemViewType(position: Int): Int {
         return if (position == 3) {
